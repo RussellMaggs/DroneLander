@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace DroneLander.Common
 {
+
+    public static class MobileCenterConstants
+    {
+        public const string AndroidAppId = "26437ebc-8ee0-4224-971b-9ca56fefbe3c";
+        public const string iOSAppId = "";
+    }
+
     public static class CoreConstants
     {
         public const double Gravity = 3.711;      // Mars gravity (m/s2)
